@@ -1,5 +1,4 @@
 # Brax-training-viewer 
-# Brax Training Viewer coding example
 
 ## Overview
 
