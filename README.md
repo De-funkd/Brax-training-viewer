@@ -93,7 +93,7 @@ def replicate(num_envs, env_separation, envs_per_row, xml_string): spec = mujoco
 - Assigns unique color to each agent to easily keep track of each body
 - The script **prints the average position** (x,y,z) of all agents, which helps monitor collective behavior.
 - Arranges agents in a grid using `env_separation` and `envs_per_row`
-- - Instead of **modifying and duplicating the original XML file manually**, it programmatically **constructs a new MuJoCo model** using `MjSpec`.This method is more **flexible, scalable, and reusable** compared to hard-coding multiple agents in the XML file.
+- Instead of **modifying and duplicating the original XML file manually**, it programmatically **constructs a new MuJoCo model** using `MjSpec`.This method is more **flexible, scalable, and reusable** compared to hard-coding multiple agents in the XML file.
 - The script doesn't just **replicate** agents—it also **controls them dynamically** using:
  
 ```python
@@ -111,6 +111,7 @@ python 2_multi-ant-viewer.py
 ```
 
 **output:** 
+
 ![Video](./assets/2(a).gif)
 
 ![Video](./assets/2(b).gif)
@@ -207,4 +208,5 @@ python 4_view-policy-ant.py
 ```
 
 **output:** 
+
 ![Video](./assets/4.gif)
