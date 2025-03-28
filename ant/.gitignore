@@ -1,0 +1,5 @@
+mujoco_log.txt
+mjdata.txt
+training.log
+ant_ppo_policy
+ant_ppo_policy.npz
