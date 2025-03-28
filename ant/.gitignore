@@ -1,5 +1,5 @@
-mujoco_log.txt
-mjdata.txt
+MUJOCO_LOG.txt
+MJDATA.txt
 training.log
 ant_ppo_policy
 ant_ppo_policy.npz
