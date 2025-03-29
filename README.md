@@ -48,12 +48,12 @@ model = mujoco.MjModel.from_xml_path("ant.xml")
 **Purpose**: Loads a MuJoCo model from an XML file (`ant.xml`) and returns a `MjModel` object containing the model’s structure (e.g., joints, bodies, actuators).
 
 ```python
-**`mujoco.viewer.launch_passive(model, data)`**
+mujoco.viewer.launch_passive(model, data)
 ```
 **Purpose**:Launches a **passive viewer** for visualizing the simulation. The viewer runs in a separate thread and syncs with the simulation data.
 
 ```python
-**`np.random.uniform(-1, 1, size=model.nu)`**
+np.random.uniform(-1, 1, size=model.nu)
 ```
 **Purpose**:Generates a **random action vector** (uniformly distributed between `-1` and `1`) for all actuators (`model.nu` gives the number of actuators).
 
