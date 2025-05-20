@@ -3,9 +3,7 @@
 ## Overview
 
 This coding example demonstrates training and visualizing a reinforcement learning policy for the **Ant** environment in Brax. It integrates **JAX**, **Brax**, and **MuJoCo** to efficiently train policies using PPO and visualize them in real-time.
-This coding example is part of the necessary requirement for the open-source project #### Brax Training Viewer for Real-Time Policy Visualization from [PAL Robotics]("https://pal-robotics.com/")
 
----
 
 ##  Cloning and installation
 
